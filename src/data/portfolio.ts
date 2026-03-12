@@ -106,3 +106,47 @@ export const experience = [
   { role: "Project Intern", org: "Binghamton University" },
   { role: "Intern", org: "Reinvent Design Technologies LLP" },
 ];
+
+export const projects = [
+  {
+    title: "AI-Powered Plant Disease Detection",
+    description: "Image processing system using deep learning to identify plant infections from leaf photographs with 94% accuracy.",
+    tags: ["Python", "TensorFlow", "OpenCV"],
+  },
+  {
+    title: "NEP SAARTHI Dashboard",
+    description: "Real-time visualization framework for evaluating NEP awareness and implementation across higher education institutions.",
+    tags: ["React", "Data Visualization", "Education"],
+  },
+  {
+    title: "Smart Energy Optimization System",
+    description: "IoT and ML-based solution for optimizing energy efficiency in modern buildings using sensor data.",
+    tags: ["IoT", "Machine Learning", "Python"],
+  },
+  {
+    title: "Supply Chain Optimizer",
+    description: "Industry 4.0 logistics platform leveraging IoT and ML for real-time supply chain optimization.",
+    tags: ["IoT", "ML", "Logistics"],
+  },
+  {
+    title: "Holographic Data Storage Mechanism",
+    description: "Deep neural network optimized storage mechanism designed for exascale data centres.",
+    tags: ["Deep Learning", "Data Storage", "Research"],
+  },
+];
+
+export const achievements = [
+  "Published 6 peer-reviewed research papers in international journals",
+  "Filed 4 patents in AI, IoT, and digital systems",
+  "Granted copyright for holographic data storage research",
+  "Selected as NEP SAARTHI by University Grants Commission",
+  "Presented at 5+ national and international conferences",
+];
+
+export const certifications = [
+  { title: "Machine Learning Specialization", issuer: "Stanford / Coursera" },
+  { title: "Deep Learning with TensorFlow", issuer: "IBM" },
+  { title: "IoT Foundation", issuer: "Cisco Networking Academy" },
+  { title: "Data Science Professional", issuer: "Google" },
+  { title: "Python for AI & Development", issuer: "IBM" },
+];
