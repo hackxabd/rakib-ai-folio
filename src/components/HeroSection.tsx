@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
-import AnimatedCounter from "./AnimatedCounter";
 import { stats } from "@/data/portfolio";
 
 const titles = ["AI Developer", "Researcher", "Graphics Designer"];
